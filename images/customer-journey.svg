@@ -1,0 +1,476 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1245" height="475" viewBox="0 0 1245 475">
+    <defs>
+        <path id="a" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="c" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="e" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="g" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="i" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="k" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="m" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="o" d="M.814 18.47c0 10.029 8.11 18.158 18.117 18.158 10.004 0 18.115-8.13 18.115-18.158C37.046 8.44 28.936.312 18.93.312 8.925.312.814 8.442.814 18.47"/>
+        <path id="q" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="s" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="u" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="w" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="y" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="A" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="C" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="E" d="M.53 18.796c0 10.028 8.13 18.158 18.158 18.158s18.157-8.13 18.157-18.158C36.845 8.769 28.716.64 18.688.64S.53 8.769.53 18.796"/>
+        <path id="G" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="I" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="K" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="M" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="O" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="Q" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="S" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="U" d="M.43 18.406c0 10.029 8.129 18.158 18.158 18.158 10.028 0 18.157-8.13 18.157-18.158S28.616.248 18.588.248C8.56.248.43 8.378.43 18.406"/>
+        <path id="W" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="Y" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="aa" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="ac" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="ae" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="ag" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="ai" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="ak" d="M.112 19.11c0 10.006 8.13 18.116 18.156 18.116 10.028 0 18.157-8.11 18.157-18.115C36.425 9.107 28.296.996 18.268.996 8.241.996.112 9.107.112 19.11"/>
+        <path id="am" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="ao" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="aq" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="as" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="au" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="aw" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="ay" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="aA" d="M.049 18.73c0 10.027 8.11 18.157 18.115 18.157 10.006 0 18.116-8.13 18.116-18.157C36.28 8.702 28.17.572 18.164.572 8.159.572.049 8.702.049 18.73"/>
+        <path id="aC" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aE" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aG" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aI" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aK" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aM" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aO" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+        <path id="aQ" d="M.461 19.05c0 10.005 8.13 18.114 18.158 18.114 10.027 0 18.157-8.11 18.157-18.114 0-10.005-8.13-18.116-18.157-18.116C8.59.934.46 9.045.46 19.05"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g stroke="#A8A8A8" stroke-width="3.337">
+            <path d="M.385 295.998s.372.516 1.088 1.45"/>
+            <path stroke-dasharray="3.337,3.337" d="M3.715 300.304c16.676 20.76 92.775 106.054 155.087 19.295 57.593-80.19-13.353-153.703 78.298-237.815 53.696-49.279 138.387-43.57 167.52 33.887 29.136 77.455.94 223.784 106.826 227.528 85.582 3.025 86.795-102.267 106.219-162.78 32.842-102.322 123.82-174.276 189.37-55.672 64.914 117.45 33.991 229.95 157.204 211.19 130.534-19.874 50.822-227.228 227.152-280.954"/>
+            <path d="M1193.133 54.459c.581-.172 1.164-.342 1.75-.512"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="b" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M-10.249 23.117L22.36-9.565" mask="url(#b)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="d" fill="#fff">
+                <use xlink:href="#c"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M-6.631 26.743L25.976-5.939" mask="url(#d)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="f" fill="#fff">
+                <use xlink:href="#e"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M-3.013 30.37L29.594-2.314" mask="url(#f)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="h" fill="#fff">
+                <use xlink:href="#g"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M.604 33.996L33.212 1.313" mask="url(#h)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="j" fill="#fff">
+                <use xlink:href="#i"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M4.222 37.622L36.829 4.939" mask="url(#j)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="l" fill="#fff">
+                <use xlink:href="#k"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M7.84 41.248L40.447 8.565" mask="url(#l)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="n" fill="#fff">
+                <use xlink:href="#m"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M11.457 44.874L44.064 12.19" mask="url(#n)"/>
+        </g>
+        <g transform="translate(393 126)">
+            <mask id="p" fill="#fff">
+                <use xlink:href="#o"/>
+            </mask>
+            <path stroke="#FF4B00" stroke-width="2.225" d="M15.074 48.5l32.608-32.683" mask="url(#p)"/>
+        </g>
+        <path fill="#FF3453" d="M239.235 193.506H4.876v62.743h234.359l35.215-31.372z"/>
+        <path fill="#FF4B00" d="M472.38 193.506H241.663l35.214 31.371-35.214 31.372h230.715l35.215-31.372z"/>
+        <path fill="#BADC00" d="M683.666 193.506H474.808l35.214 31.371-35.214 31.372h208.858l35.215-31.372z"/>
+        <path fill="#0DF" d="M921.668 193.506H686.095l35.214 31.371-35.214 31.372h235.573l35.215-31.372z"/>
+        <path fill="#0096FF" d="M1159.669 193.506H924.096l35.215 31.371-35.215 31.372h235.573l35.215-31.372z"/>
+        <text fill="#FFF" font-family="MuseoSans-900, Museo Sans" font-size="22.247" font-weight="bold">
+            <tspan x="40" y="233">Conocimiento</tspan>
+        </text>
+        <text fill="#FFF" font-family="MuseoSans-900, Museo Sans" font-size="22.247" font-weight="bold">
+            <tspan x="290" y="233">Consideración</tspan>
+        </text>
+        <text fill="#FFF" font-family="MuseoSans-900, Museo Sans" font-size="22.247" font-weight="bold">
+            <tspan x="536" y="233">Compra</tspan>
+        </text>
+        <text fill="#FFF" font-family="MuseoSans-900, Museo Sans" font-size="22.247" font-weight="bold">
+            <tspan x="774" y="233">Se</tspan> <tspan x="799.428" y="233" letter-spacing=".198">r</tspan> <tspan x="809.392" y="233">vicio</tspan>
+        </text>
+        <text fill="#FFF" font-family="MuseoSans-900, Museo Sans" font-size="22.247" font-weight="bold">
+            <tspan x="1005" y="233">Fidelidad</tspan>
+        </text>
+        <g transform="translate(23 312)">
+            <mask id="r" fill="#fff">
+                <use xlink:href="#q"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M-10.559 23.444L22.124-9.24" mask="url(#r)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="t" fill="#fff">
+                <use xlink:href="#s"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M-6.933 27.07L25.75-5.613" mask="url(#t)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="v" fill="#fff">
+                <use xlink:href="#u"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M-3.307 30.696L29.376-1.987" mask="url(#v)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="x" fill="#fff">
+                <use xlink:href="#w"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M.32 34.322L33.001 1.639" mask="url(#x)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="z" fill="#fff">
+                <use xlink:href="#y"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M3.945 37.948L36.628 5.265" mask="url(#z)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="B" fill="#fff">
+                <use xlink:href="#A"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M7.571 41.574L40.254 8.89" mask="url(#B)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="D" fill="#fff">
+                <use xlink:href="#C"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M11.197 45.2L43.88 12.517" mask="url(#D)"/>
+        </g>
+        <g transform="translate(23 312)">
+            <mask id="F" fill="#fff">
+                <use xlink:href="#E"/>
+            </mask>
+            <path stroke="#FF3453" stroke-width="2.225" d="M14.823 48.826l32.683-32.683" mask="url(#F)"/>
+        </g>
+        <path fill="#FF3453" d="M132.674 358.185c0-10.047-8.154-18.192-18.213-18.192-10.058 0-18.212 8.145-18.212 18.192 0 10.048 8.154 18.194 18.212 18.194 10.06 0 18.213-8.146 18.213-18.194M206.738 161.711c0-10.047-8.154-18.193-18.212-18.193-10.059 0-18.213 8.146-18.213 18.193 0 10.048 8.154 18.192 18.213 18.192 10.058 0 18.212-8.144 18.212-18.192M267.447 70.75c0-10.047-8.154-18.192-18.213-18.192-10.058 0-18.212 8.145-18.212 18.192 0 10.048 8.154 18.192 18.212 18.192 10.059 0 18.213-8.144 18.213-18.192"/>
+        <path fill="#FF4B00" d="M368.223 57.41c0-10.048-8.154-18.193-18.212-18.193-10.059 0-18.213 8.145-18.213 18.192 0 10.048 8.154 18.192 18.213 18.192 10.058 0 18.212-8.144 18.212-18.192M411.933 92.58c0-10.047-8.154-18.191-18.212-18.191-10.059 0-18.213 8.144-18.213 18.192 0 10.047 8.154 18.192 18.213 18.192 10.058 0 18.212-8.145 18.212-18.192M460.5 287.843c0-10.048-8.154-18.192-18.212-18.192-10.059 0-18.213 8.144-18.213 18.192 0 10.047 8.154 18.193 18.213 18.193 10.058 0 18.212-8.146 18.212-18.193"/>
+        <path fill="#BADC00" d="M526.066 343.632c0-10.047-8.154-18.193-18.213-18.193-10.059 0-18.212 8.146-18.212 18.193 0 10.048 8.153 18.192 18.212 18.192s18.213-8.144 18.213-18.192M609.843 287.843c0-10.048-8.154-18.192-18.212-18.192-10.06 0-18.213 8.144-18.213 18.192 0 10.047 8.154 18.193 18.213 18.193 10.058 0 18.212-8.146 18.212-18.193M666.91 118.05c0-10.047-8.154-18.192-18.214-18.192-10.058 0-18.213 8.145-18.213 18.192s8.155 18.192 18.213 18.192c10.06 0 18.214-8.145 18.214-18.192"/>
+        <path fill="#0DF" d="M795.612 87.73c0-10.048-8.154-18.192-18.213-18.192-10.059 0-18.212 8.144-18.212 18.192 0 10.047 8.153 18.192 18.212 18.192s18.213-8.145 18.213-18.192M729.425 63.192c0-10.047-8.154-18.192-18.212-18.192C701.153 45 693 53.145 693 63.192s8.154 18.192 18.212 18.192c10.06 0 18.213-8.145 18.213-18.192M827.18 143.519c0-10.048-8.154-18.192-18.213-18.192-10.058 0-18.212 8.144-18.212 18.192 0 10.047 8.154 18.193 18.212 18.193 10.059 0 18.213-8.146 18.213-18.193M893.96 306.035c0-10.047-8.155-18.193-18.213-18.193-10.058 0-18.213 8.146-18.213 18.193 0 10.048 8.155 18.192 18.213 18.192 10.058 0 18.212-8.144 18.212-18.192M940.097 337.568c0-10.048-8.153-18.193-18.212-18.193-10.058 0-18.213 8.145-18.213 18.193 0 10.048 8.155 18.192 18.213 18.192 10.059 0 18.212-8.144 18.212-18.192"/>
+        <path fill="#0096FF" d="M1002.02 331.503c0-10.047-8.153-18.192-18.212-18.192-10.058 0-18.212 8.145-18.212 18.192 0 10.048 8.154 18.194 18.212 18.194 10.059 0 18.213-8.146 18.213-18.194M1044.516 297.545c0-10.048-8.154-18.192-18.212-18.192s-18.213 8.144-18.213 18.192c0 10.047 8.155 18.193 18.213 18.193 10.058 0 18.212-8.146 18.212-18.193M1133.151 107.134c0-10.047-8.154-18.192-18.213-18.192-10.058 0-18.212 8.145-18.212 18.192 0 10.048 8.154 18.192 18.212 18.192 10.059 0 18.213-8.144 18.213-18.192M1180.504 63.474c0-10.048-8.154-18.192-18.213-18.192-10.058 0-18.212 8.144-18.212 18.192 0 10.047 8.154 18.192 18.212 18.192 10.059 0 18.213-8.145 18.213-18.192"/>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="18" y="374">RRPP</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797" letter-spacing="-.356">
+            <tspan x="95" y="402">R</tspan> <tspan x="105.127" y="402">adio</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="95" y="425">TV</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797" letter-spacing="-.356">
+            <tspan x="95" y="448">P</tspan> <tspan x="104.735" y="448">apelería</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797" letter-spacing="-2.047">
+            <tspan x="95" y="471">T</tspan> <tspan x="101.051" y="471">erreno</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="198" y="314">Boca a </tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="197" y="337">boca</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="50" y="167">ADS en línea</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="51" y="109">Correos virales</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="91" y="59">Cartelera digital</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="269" y="18">RRSS</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="366" y="29">Búsqueda</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797" letter-spacing="-.249">
+            <tspan x="427" y="67">L</tspan> <tspan x="435.276" y="67">anding / sitio </tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="426" y="90">web de la marca</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="439" y="140">Blog / web </tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="439" y="163">de terceros</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="323" y="301">Mail directo</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="479" y="386">Tienda</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="618" y="301">Call center</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="641" y="162">e-commerce</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="809" y="81">Móvil / apps</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="677" y="36">Sitio web</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="838" y="135">Mensajería </tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="838" y="158">instantánea / chat</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="761.156" y="315">Call center </tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="818.197" y="338">IVR</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="879.465" y="379">Servicio al </tspan> <tspan x="893.534" y="401">cliente </tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797" letter-spacing="-1.691">
+            <tspan x="982" y="379">T</tspan> <tspan x="988.763" y="379">arjeta de </tspan> <tspan x="982" y="401">beneficios</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="1053" y="294">Promociones / </tspan> <tspan x="1053" y="316">cupones</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="1105" y="174">Blog</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="1189" y="79">Emails</tspan>
+        </text>
+        <text fill="#000" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.797">
+            <tspan x="1140" y="122">Newsletters</tspan>
+        </text>
+        <g>
+            <g transform="translate(152 287)">
+                <mask id="H" fill="#fff">
+                    <use xlink:href="#G"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-10.66 23.053L22.025-9.63" mask="url(#H)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="J" fill="#fff">
+                    <use xlink:href="#I"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-7.033 26.679L25.65-6.004" mask="url(#J)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="L" fill="#fff">
+                    <use xlink:href="#K"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-3.407 30.305L29.276-2.378" mask="url(#L)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="N" fill="#fff">
+                    <use xlink:href="#M"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M.219 33.93L32.902 1.249" mask="url(#N)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="P" fill="#fff">
+                    <use xlink:href="#O"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M3.845 37.557L36.528 4.874" mask="url(#P)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="R" fill="#fff">
+                    <use xlink:href="#Q"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M7.471 41.183L40.154 8.5" mask="url(#R)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="T" fill="#fff">
+                    <use xlink:href="#S"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M11.097 44.809L43.78 12.126" mask="url(#T)"/>
+            </g>
+            <g transform="translate(152 287)">
+                <mask id="V" fill="#fff">
+                    <use xlink:href="#U"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M14.723 48.435l32.683-32.683" mask="url(#V)"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(192 89)">
+                <mask id="X" fill="#fff">
+                    <use xlink:href="#W"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-10.977 23.748L21.706-8.86" mask="url(#X)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="Z" fill="#fff">
+                    <use xlink:href="#Y"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-7.351 27.365L25.332-5.242" mask="url(#Z)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="ab" fill="#fff">
+                    <use xlink:href="#aa"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-3.725 30.983L28.958-1.624" mask="url(#ab)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="ad" fill="#fff">
+                    <use xlink:href="#ac"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-.1 34.6L32.585 1.994" mask="url(#ad)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="af" fill="#fff">
+                    <use xlink:href="#ae"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M3.526 38.218L36.21 5.611" mask="url(#af)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="ah" fill="#fff">
+                    <use xlink:href="#ag"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M7.152 41.835L39.835 9.228" mask="url(#ah)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="aj" fill="#fff">
+                    <use xlink:href="#ai"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M10.778 45.453l32.683-32.607" mask="url(#aj)"/>
+            </g>
+            <g transform="translate(192 89)">
+                <mask id="al" fill="#fff">
+                    <use xlink:href="#ak"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M14.404 49.07l32.683-32.607" mask="url(#al)"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(277 31)">
+                <mask id="an" fill="#fff">
+                    <use xlink:href="#am"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-11.015 23.376L21.592-9.307" mask="url(#an)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="ap" fill="#fff">
+                    <use xlink:href="#ao"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-7.397 27.002L25.21-5.681" mask="url(#ap)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="ar" fill="#fff">
+                    <use xlink:href="#aq"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-3.78 30.628L28.828-2.055" mask="url(#ar)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="at" fill="#fff">
+                    <use xlink:href="#as"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M-.162 34.254L32.445 1.57" mask="url(#at)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="av" fill="#fff">
+                    <use xlink:href="#au"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M3.456 37.88L36.063 5.197" mask="url(#av)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="ax" fill="#fff">
+                    <use xlink:href="#aw"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M7.073 41.506L39.681 8.823" mask="url(#ax)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="az" fill="#fff">
+                    <use xlink:href="#ay"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M10.691 45.132l32.607-32.683" mask="url(#az)"/>
+            </g>
+            <g transform="translate(277 31)">
+                <mask id="aB" fill="#fff">
+                    <use xlink:href="#aA"/>
+                </mask>
+                <path stroke="#FF3453" stroke-width="2.225" d="M14.309 48.758l32.607-32.683" mask="url(#aB)"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(1060 142)">
+                <mask id="aD" fill="#fff">
+                    <use xlink:href="#aC"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M-10.628 23.685L22.055-8.922" mask="url(#aD)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aF" fill="#fff">
+                    <use xlink:href="#aE"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M-7.002 27.303L25.681-5.304" mask="url(#aF)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aH" fill="#fff">
+                    <use xlink:href="#aG"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M-3.376 30.92L29.307-1.687" mask="url(#aH)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aJ" fill="#fff">
+                    <use xlink:href="#aI"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M.25 34.538L32.933 1.931" mask="url(#aJ)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aL" fill="#fff">
+                    <use xlink:href="#aK"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M3.876 38.156L36.56 5.549" mask="url(#aL)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aN" fill="#fff">
+                    <use xlink:href="#aM"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M7.502 41.773L40.185 9.166" mask="url(#aN)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aP" fill="#fff">
+                    <use xlink:href="#aO"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M11.128 45.391l32.683-32.607" mask="url(#aP)"/>
+            </g>
+            <g transform="translate(1060 142)">
+                <mask id="aR" fill="#fff">
+                    <use xlink:href="#aQ"/>
+                </mask>
+                <path stroke="#0096FF" stroke-width="2.225" d="M14.754 49.009L47.437 16.4" mask="url(#aR)"/>
+            </g>
+        </g>
+    </g>
+</svg>
