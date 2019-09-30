@@ -80,11 +80,11 @@ switch ($formulario) {
 
 	
 // Create the email and send the mensaje
-$to = 'juanloropeza@gmail.com'; // Add your email address inbetween the '' replacing yournombre@yourdomain.com - This is where the form will send a mensaje to.
+$to = 'hola@movigoo.com'; // Add your email address inbetween the '' replacing yournombre@yourdomain.com - This is where the form will send a mensaje to.
 $email_subject = $asunto;
 $email_body = $texto_completo;
 $headers = "From: noreply@juanloropeza.com.ve\r\n"; // This is the email address the generated mensaje will be from. We recommend using something like noreply@yourdomain.com.
-$headers .= "CC: gunners.jloa@gmail.com\r\n";
+$headers .= "CC:  paula@movigoo.com, veronica@movigoo.com, luis@movigoo.com\r\n";
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
 return true;			
