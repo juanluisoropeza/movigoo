@@ -2233,6 +2233,263 @@ footer {
 #success button.close {
   line-height: 0.7; }
 
+.header_nuevo {
+  height: 662px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  align-items: center;
+  -webkit-align-items: center; }
+  .header_nuevo .title {
+    color: white; }
+    .header_nuevo .title h1 {
+      font-size: 40px;
+      font-weight: 400;
+      color: #ffffff;
+      margin-bottom: 15px; }
+    .header_nuevo .title h1.bold {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2; }
+    .header_nuevo .title h2 {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 30px; }
+    .header_nuevo .title h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px; }
+    .header_nuevo .title p {
+      font-size: 15px;
+      line-height: 2;
+      font-weight: 400;
+      color: #ffffff;
+      margin: 0px; }
+      .header_nuevo .title p a {
+        color: white;
+        font-weight: 700; }
+    .header_nuevo .title .box_buttons {
+      margin-bottom: 30px; }
+      .header_nuevo .title .box_buttons .btn {
+        border-radius: 0;
+        font-size: 20px;
+        font-weight: 700;
+        min-height: 60px;
+        min-width: 210px; }
+      .header_nuevo .title .box_buttons .btn-danger {
+        margin-right: 30px; }
+        .header_nuevo .title .box_buttons .btn-danger:hover {
+          background-color: white;
+          border-color: white;
+          color: #dc3b41; }
+      .header_nuevo .title .box_buttons .btn-outline-danger {
+        border-color: white;
+        color: white; }
+        .header_nuevo .title .box_buttons .btn-outline-danger:hover {
+          border-color: #dc3b41; }
+    .header_nuevo .title figure img {
+      max-height: 81px; }
+
+.nosotros {
+  background: url("../images/nosotros-bg.svg") no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  .nosotros:after {
+    content: "";
+    background: url("../images/nosotros.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 236px;
+    width: 896px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px; }
+
+.header_bots {
+  background-color: #3d3193; }
+  .header_bots:after {
+    content: "";
+    background: url("../images/bots.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 497px;
+    width: 568px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+
+.header_digtouch {
+  background-color: #7d00ff; }
+  .header_digtouch:after {
+    content: "";
+    background: url("../images/digital-touchpoints.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 449px;
+    width: 475px;
+    position: absolute;
+    bottom: 34px;
+    right: 9%; }
+
+.header_freshworks {
+  background-color: #f9f9f9; }
+  .header_freshworks:after {
+    content: "";
+    background: url("../images/freshworks.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 399px;
+    width: 539px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_freshworks .title {
+    color: black; }
+    .header_freshworks .title h1 {
+      color: #dc3b41; }
+    .header_freshworks .title p {
+      color: black; }
+      .header_freshworks .title p a {
+        color: black; }
+    .header_freshworks .title .box_buttons .btn-danger:hover {
+      border-color: #dc3b41; }
+    .header_freshworks .title .box_buttons .btn-outline-danger {
+      border-color: #262626;
+      color: #262626; }
+      .header_freshworks .title .box_buttons .btn-outline-danger:hover {
+        background-color: #262626;
+        border-color: #262626;
+        color: #FFFFFF; }
+  .header_freshworks .imagen {
+    text-align: right; }
+    .header_freshworks .imagen figure {
+      margin-top: -35px; }
+      .header_freshworks .imagen figure img {
+        max-height: 46px; }
+
+.header_purecloud {
+  background-color: #f9f9f9; }
+  .header_purecloud:after {
+    content: "";
+    background: url("../images/purecloud.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 381px;
+    width: 571px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_purecloud .title {
+    color: black; }
+    .header_purecloud .title h1 {
+      color: black;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px; }
+    .header_purecloud .title p {
+      color: black;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 11px; }
+      .header_purecloud .title p a {
+        color: black; }
+    .header_purecloud .title h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px; }
+    .header_purecloud .title .box_buttons .btn-danger:hover {
+      border-color: #dc3b41; }
+    .header_purecloud .title .box_buttons .btn-outline-danger {
+      border-color: #dc3b41;
+      color: #dc3b41; }
+      .header_purecloud .title .box_buttons .btn-outline-danger:hover {
+        background-color: #dc3b41;
+        border-color: #dc3b41;
+        color: #FFFFFF; }
+  .header_purecloud .imagen {
+    text-align: right; }
+    .header_purecloud .imagen figure {
+      margin-top: -35px; }
+      .header_purecloud .imagen figure img {
+        max-height: 46px; }
+
+.header_sa {
+  background-color: #fb5e49; }
+  .header_sa:after {
+    content: "";
+    background: url("../images/speech-analytics-header.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 381px;
+    width: 570px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_sa .title {
+    color: white; }
+    .header_sa .title h1 {
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px; }
+    .header_sa .title p {
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 11px; }
+      .header_sa .title p a {
+        color: white; }
+    .header_sa .title h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px; }
+    .header_sa .title .box_buttons .btn-danger {
+      background-color: white;
+      border-color: white;
+      color: #fb5e49; }
+      .header_sa .title .box_buttons .btn-danger:hover {
+        background-color: #fb5e49;
+        border-color: white;
+        color: white; }
+    .header_sa .title .box_buttons .btn-outline-danger {
+      border-color: white;
+      color: white; }
+      .header_sa .title .box_buttons .btn-outline-danger:hover {
+        background-color: white;
+        border-color: white;
+        color: #fb5e49; }
+
 @media screen and (max-width: 576px) {
   .header_internas {
     padding: 0px 34px !important; }
@@ -3153,7 +3410,90 @@ footer {
     align-items: center;
     -webkit-align-items: center;
     justify-content: center;
-    -webkit-justify-content: center; } }
+    -webkit-justify-content: center; }
+  .header_nuevo .title {
+    padding: 0px 25px;
+    text-align: center; }
+    .header_nuevo .title h1 {
+      font-size: 24px; }
+    .header_nuevo .title h2 {
+      font-size: 35px; }
+    .header_nuevo .title h3 {
+      font-size: 22px; }
+    .header_nuevo .title .box_buttons .btn {
+      display: block;
+      font-size: 15px;
+      line-height: normal;
+      height: 45px;
+      min-height: auto;
+      margin: 0 auto 20px !important;
+      width: 182px; }
+    .header_nuevo .title .box_buttons .btn-danger {
+      margin-right: 0px;
+      margin-bottom: 20px; }
+    .header_nuevo .title figure img {
+      max-height: 60px; }
+  .nosotros {
+    background: transparent;
+    background-color: #dc3b41; }
+    .nosotros:after {
+      display: none; }
+  .header_bots:after {
+    display: none; }
+  .header_digtouch:after {
+    display: none; }
+  .header_freshworks .row {
+    flex-direction: column-reverse; }
+  .header_freshworks .imagen {
+    text-align: center; }
+    .header_freshworks .imagen figure {
+      margin-bottom: 28px; }
+      .header_freshworks .imagen figure img {
+        max-height: 32px; }
+  .header_freshworks .title {
+    text-align: center; }
+    .header_freshworks .title h1 {
+      font-size: 35px !important;
+      line-height: normal !important;
+      margin-bottom: 20px; }
+    .header_freshworks .title h3 {
+      font-size: 20px;
+      line-height: 1.15; }
+  .header_freshworks:after {
+    display: none; }
+  .header_purecloud .row {
+    flex-direction: column-reverse; }
+  .header_purecloud .imagen {
+    text-align: center; }
+    .header_purecloud .imagen figure {
+      margin-bottom: 28px; }
+      .header_purecloud .imagen figure img {
+        max-height: 32px; }
+  .header_purecloud .title {
+    text-align: center; }
+    .header_purecloud .title p {
+      font-size: 15px;
+      line-height: 2; }
+    .header_purecloud .title h1 {
+      font-size: 35px !important;
+      line-height: normal !important;
+      margin-bottom: 20px; }
+    .header_purecloud .title h3 {
+      font-size: 20px;
+      line-height: 1.5; }
+  .header_purecloud:after {
+    display: none; }
+  .header_sa .title h1 {
+    font-size: 35px;
+    line-height: normal; }
+  .header_sa .title h3 {
+    font-size: 20px;
+    line-height: 1.15; }
+  .header_sa .title p {
+    font-size: 15px;
+    line-height: 2; }
+  .header_sa:after {
+    display: none; } }
 
 @media screen and (max-width: 359px) {
   header .btn_header a {
@@ -3178,7 +3518,9 @@ footer {
     .footer_internas .redes .destock {
       margin-right: 0px; }
   .list_whatsapp .text .text_title {
-    margin-right: 0px; } }
+    margin-right: 0px; }
+  .header_nuevo .title .box_buttons .btn {
+    display: block; } }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   header {
@@ -3345,7 +3687,39 @@ footer {
   .inicio_chatbots .content_header .center_content .box_buttons .btn-danger {
     margin-bottom: 0px !important; }
   #speech_analytics .title .box_buttons .btn-danger {
-    margin-bottom: 0px !important; } }
+    margin-bottom: 0px !important; }
+  .header_nuevo .title h1 {
+    font-size: 28px; }
+  .header_nuevo .title h2 {
+    font-size: 40px; }
+  .header_nuevo .title h3 {
+    font-size: 24px; }
+  .header_nuevo .title .box_buttons .btn {
+    min-width: 177px; }
+  .nosotros:after {
+    height: 160px;
+    width: 607px; }
+  .header_bots:after {
+    height: 325px;
+    width: 371px; }
+  .header_digtouch:after {
+    bottom: 5%;
+    height: 300px;
+    right: 2%;
+    width: 317px; }
+  .header_freshworks:after {
+    height: 259px;
+    width: 350px; }
+  .header_freshworks .imagen figure {
+    margin-top: 0px; }
+  .header_purecloud:after {
+    height: 235px;
+    width: 352px; }
+  .header_purecloud .imagen figure {
+    margin-top: 0px; }
+  .header_sa:after {
+    height: 205px;
+    width: 307px; } }
 
 @media screen and (max-width: 991px) {
   header .menu {
@@ -3655,7 +4029,26 @@ footer {
     background-size: cover; }
   footer .info {
     text-align: left;
-    font-size: 14px; } }
+    font-size: 14px; }
+  .nosotros:after {
+    height: 180px;
+    width: 683px; }
+  .header_bots:after {
+    height: 420px;
+    width: 480px; }
+  .header_digtouch:after {
+    height: 400px;
+    width: 423px;
+    right: 4%; }
+  .header_freshworks:after {
+    height: 333px;
+    width: 450px; }
+  .header_purecloud:after {
+    height: 325px;
+    width: 487px; }
+  .header_sa:after {
+    height: 300px;
+    width: 450px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   #home .right_content .sidenav .item_menu {
@@ -3733,3 +4126,7 @@ footer {
     max-width: 20%; }
   .like_movigoo .clientes_box.offset-lg-1 {
     margin-left: 12.5% !important; } }
+
+@media screen and (min-width: 1440px) {
+  .header_nuevo:after {
+    right: 15%; } }

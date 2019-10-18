@@ -1422,6 +1422,139 @@
       }
     }
   }
+  .header_nuevo {
+    .title {
+      padding: 0px 25px;
+      text-align: center;
+      h1 {
+        font-size: 24px;
+      }
+      h2 {
+        font-size: 35px;
+      }
+      h3 {
+        font-size: 22px;
+      }
+      .box_buttons {
+        .btn {
+          display: block;
+          font-size: 15px;
+          line-height: normal;
+          height: 45px;
+          min-height: auto;
+          margin: 0 auto 20px !important;
+          width: 182px;
+        }
+        .btn-danger {
+          margin-right: 0px;
+          margin-bottom: 20px;
+        }
+      }
+      figure {
+        img {
+          max-height: 60px;
+        }
+      }
+    }
+  }
+  .nosotros {
+    background: transparent;
+    background-color: $rojo;
+    &:after {
+      display: none;
+    }
+  }
+  .header_bots {
+    &:after {
+      display: none;
+    }
+  }
+  .header_digtouch {
+    &:after {
+      display: none;
+    }
+  }
+  .header_freshworks {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .imagen {
+      text-align: center;
+      figure {
+        margin-bottom: 28px;
+        img {
+          max-height: 32px;
+        }
+      }
+    }
+    .title {
+      text-align: center;
+      h1 {
+        font-size: 35px !important;
+        line-height: normal !important;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 20px;
+        line-height: 1.15;
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
+  .header_purecloud {
+    .row {
+      flex-direction: column-reverse;
+    }
+    .imagen {
+      text-align: center;
+      figure {
+        margin-bottom: 28px;
+        img {
+          max-height: 32px;
+        }
+      }
+    }
+    .title {
+      text-align: center;
+      p {
+        font-size: 15px;
+        line-height: 2;
+      }
+      h1 {
+        font-size: 35px !important;
+        line-height: normal !important;
+        margin-bottom: 20px;
+      }
+      h3 {
+        font-size: 20px;
+        line-height: 1.5;
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
+  .header_sa {
+    .title {
+      h1 {
+        font-size: 35px;
+        line-height: normal;
+      }
+      h3 {
+        font-size: 20px;
+        line-height: 1.15;
+      }
+      p {
+        font-size: 15px;
+        line-height: 2;
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 359px) {
@@ -1484,6 +1617,15 @@
     .text {
       .text_title {
         margin-right: 0px;
+      }
+    }
+  }
+  .header_nuevo {
+    .title {
+      .box_buttons {
+        .btn {
+          display: block;
+        }
       }
     }
   }
@@ -1775,6 +1917,72 @@
           margin-bottom: 0px !important;
         }
       }
+    }
+  }
+  .header_nuevo {
+    .title {
+      h1 {
+        font-size: 28px;
+      }
+      h2 {
+        font-size: 40px;
+      }
+      h3 {
+        font-size: 24px;
+      }
+      .box_buttons {
+        .btn {
+          min-width: 177px;
+        }
+      }
+    }
+  }
+  .nosotros {
+    &:after {
+      height: 160px;
+      width: 607px;
+    }
+  }
+  .header_bots {
+    &:after {
+      height: 325px;
+      width: 371px;
+    }
+  }
+  .header_digtouch {
+    &:after {
+      bottom: 5%;
+      height: 300px;
+      right: 2%;
+      width: 317px;
+    }
+  }
+  .header_freshworks {
+    &:after {
+      height: 259px;
+      width: 350px;
+    }
+    .imagen {
+      figure {
+        margin-top: 0px;
+      }
+    }
+  }
+  .header_purecloud {
+    &:after {
+      height: 235px;
+      width: 352px;
+    }
+    .imagen {
+      figure {
+        margin-top: 0px;
+      }
+    }
+  }
+  .header_sa {
+    &:after {
+      height: 205px;
+      width: 307px;
     }
   }
 }
@@ -2372,6 +2580,43 @@
       font-size: 14px;
     }
   }
+  .nosotros {
+    &:after {
+      height: 180px;
+      width: 683px;
+    }
+  }
+  .header_bots {
+    &:after {
+      height: 420px;
+      width: 480px;
+    }
+  }
+  .header_digtouch {
+    &:after {
+      height: 400px;
+      width: 423px;
+      right: 4%;
+    }
+  }
+  .header_freshworks {
+    &:after {
+      height: 333px;
+      width: 450px;
+    }
+  }
+  .header_purecloud {
+    &:after {
+      height: 325px;
+      width: 487px;
+    }
+  }
+  .header_sa {
+    &:after {
+      height: 300px;
+      width: 450px;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width:1399px) {
@@ -2532,6 +2777,14 @@
   .like_movigoo {
     .clientes_box.offset-lg-1 {
       margin-left: 12.5% !important;
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header_nuevo {
+    &:after {
+      right: 15%;
     }
   }
 }

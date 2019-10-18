@@ -2813,5 +2813,333 @@ footer {
   }
 }
 
+
+
+.header_nuevo {
+  height: 662px;
+  overflow: hidden;
+  position:relative;
+  display: flex;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-flow: row wrap;
+  -webkit-flex-flow: row wrap;
+  align-items: center;
+  -webkit-align-items: center;
+  .title {
+    color: white;
+    h1 {
+      font-size: 40px;
+      font-weight: 400;
+      color: #ffffff;
+      margin-bottom: 15px;
+    }
+    h1.bold {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    h2 {
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 30px;
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 15px;
+      line-height: 2;
+      font-weight: 400;
+      color: #ffffff;
+      margin: 0px;
+      a {
+        color: white;
+        font-weight: 700;
+      }
+    }
+    .box_buttons {
+      margin-bottom: 30px;
+      .btn {
+        border-radius: 0;
+        font-size: 20px;
+        font-weight: 700;
+        min-height: 60px;
+        min-width: 210px;
+      }
+      .btn-danger {
+        margin-right: 30px;
+        &:hover {
+          background-color: white;
+          border-color: white;
+          color: $rojo;
+        }
+      }
+      .btn-outline-danger {
+        border-color: white;
+        color: white;
+        &:hover {
+          border-color: $rojo;
+        }
+      }
+    }
+    figure {
+      img {
+        max-height: 81px;
+      }
+    }
+  }
+}
+
+.nosotros {
+  background: url('../images/nosotros-bg.svg') no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  &:after {
+    content: "";
+    background: url('../images/nosotros.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 236px;
+    width: 896px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+}
+
+.header_bots {
+  background-color: $fondo_azul;
+  &:after {
+    content: "";
+    background: url('../images/bots.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 497px;
+    width: 568px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+}
+
+.header_digtouch {
+  background-color: $fondo_morado;
+  &:after {
+    content: "";
+    background: url('../images/digital-touchpoints.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 449px;
+    width: 475px;
+    position: absolute;
+    bottom: 34px;
+    right: 9%;
+  }
+}
+
+.header_freshworks {
+  background-color: $fondo;
+  &:after {
+    content: "";
+    background: url('../images/freshworks.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 399px;
+    width: 539px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+  .title {
+    color: black;
+    h1 {
+      color: $rojo;
+    }
+    p {
+      color: black;
+      a {
+        color: black;
+      }
+    }
+    .box_buttons {
+      .btn-danger {
+        &:hover {
+          border-color: $rojo;
+        }
+      }
+      .btn-outline-danger {
+        border-color: #262626;
+        color: #262626;
+        &:hover {
+          background-color: #262626;
+          border-color: #262626;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  .imagen {
+    text-align: right;
+    figure {
+      margin-top: -35px;
+      img {
+        max-height: 46px;
+      }
+    }
+  }
+}
+
+.header_purecloud {
+  background-color: $fondo;
+  &:after {
+    content: "";
+    background: url('../images/purecloud.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 381px;
+    width: 571px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+  .title {
+    color: black;
+    h1 {
+      color: black;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    p {
+      color: black;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 11px;
+      a {
+        color: black;
+      }
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px;
+    }
+    .box_buttons {
+      .btn-danger {
+        &:hover {
+          border-color: $rojo;
+        }
+      }
+      .btn-outline-danger {
+        border-color: $rojo;
+        color: $rojo;
+        &:hover {
+          background-color: $rojo;
+          border-color: $rojo;
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  .imagen {
+    text-align: right;
+    figure {
+      margin-top: -35px;
+      img {
+        max-height: 46px;
+      }
+    }
+  }
+}
+
+.header_sa {
+  background-color: $naranja;
+  &:after {
+    content: "";
+    background: url('../images/speech-analytics-header.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 381px;
+    width: 570px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+  .title {
+    color: white;
+    h1 {
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+    p {
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 11px;
+      a {
+        color: white;
+      }
+    }
+    h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px;
+    }
+    .box_buttons {
+      .btn-danger {
+        background-color: white;
+        border-color: white;
+        color: $naranja;
+        &:hover {
+          background-color: $naranja;
+          border-color: white;
+          color: white;
+        }
+      }
+      .btn-outline-danger {
+        border-color: white;
+        color: white;
+        &:hover {
+          background-color: white;
+          border-color: white;
+          color: $naranja;
+        }
+      }
+    }
+  }
+}
+
 @import "components/responsive";
 
