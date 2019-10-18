@@ -2123,7 +2123,7 @@ footer {
         text-transform: uppercase;
         text-decoration: none; }
       .text_whatsapp .box ul li .active {
-        color: #262626;
+        color: #00dc87;
         font-weight: 700; }
 
 .text_whatsapp .text p {
@@ -2489,6 +2489,46 @@ footer {
         background-color: white;
         border-color: white;
         color: #fb5e49; }
+
+.header_ws {
+  background-color: #00dc87; }
+  .header_ws:after {
+    content: "";
+    background: url("../images/whatsapp.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 560px;
+    width: 426px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_ws .title {
+    color: white; }
+    .header_ws .title h1 {
+      color: white;
+      font-size: 50px;
+      font-weight: 700;
+      line-height: 1.2;
+      margin-bottom: 12px; }
+    .header_ws .title p {
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      margin-bottom: 11px; }
+      .header_ws .title p a {
+        color: white; }
+    .header_ws .title h3 {
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 1.33;
+      margin-bottom: 30px; }
+    .header_ws .title .box_buttons .btn-outline-danger:hover {
+      background-color: white;
+      border-color: white;
+      color: #dc3b41; }
 
 @media screen and (max-width: 576px) {
   .header_internas {
@@ -3493,6 +3533,17 @@ footer {
     font-size: 15px;
     line-height: 2; }
   .header_sa:after {
+    display: none; }
+  .header_ws .title h1 {
+    font-size: 35px;
+    line-height: normal; }
+  .header_ws .title h3 {
+    font-size: 20px;
+    line-height: 1.15; }
+  .header_ws .title p {
+    font-size: 15px;
+    line-height: 2; }
+  .header_ws:after {
     display: none; } }
 
 @media screen and (max-width: 359px) {
@@ -3719,7 +3770,10 @@ footer {
     margin-top: 0px; }
   .header_sa:after {
     height: 205px;
-    width: 307px; } }
+    width: 307px; }
+  .header_ws:after {
+    height: 450px;
+    width: 342px; } }
 
 @media screen and (max-width: 991px) {
   header .menu {
