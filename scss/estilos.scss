@@ -3193,5 +3193,110 @@ footer {
   }
 }
 
+.header_mrk {
+  background-color: $rosado;
+  &:after {
+    content: "";
+    background: url('../images/mktyventas.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 377px;
+    width: 528px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+  .title {
+    h1 {
+      font-size: 70px !important;
+      font-weight: 700 !important;
+      color: #ffffff;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      color: #ffffff;
+      margin: 0px;
+      padding-top: 20px;
+      .dark {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.header_clientes {
+  background-color: $morado;
+  &:after {
+    content: "";
+    background: url('../images/experiencia-clientes.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 380px;
+    width: 477px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+  .title {
+    h1 {
+      font-size: 70px !important;
+      font-weight: 700 !important;
+      color: #ffffff;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      color: #ffffff;
+      margin: 0px;
+      padding-top: 20px;
+      .dark {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
+.header_serv {
+  background-color: $azul;
+  &:after {
+    content: "";
+    background: url('../images/servicio-cliente.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 437px;
+    width: 357px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
+  .title {
+    h1 {
+      font-size: 70px !important;
+      font-weight: 700 !important;
+      color: #ffffff;
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.5;
+      color: #ffffff;
+      margin: 0px;
+      padding-top: 20px;
+      .dark {
+        font-weight: 700;
+      }
+    }
+  }
+}
+
 @import "components/responsive";
 

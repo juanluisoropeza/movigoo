@@ -771,7 +771,7 @@
         }
       }
     }
-  }  
+  }
   #nosotros {
     background:url('../images/movigoo-banner-xs.jpg') no-repeat;
     background-position:center center;
@@ -1574,6 +1574,54 @@
       display: none;
     }
   }
+  .header_mrk {
+    .title {
+      text-align: left;
+      h1 {
+        font-size: 45px !important;
+        line-height: normal;
+      }
+      p {
+        font-size: 15px;
+        line-height: 2;
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
+  .header_clientes {
+    .title {
+      text-align: left;
+      h1 {
+        font-size: 45px !important;
+        line-height: normal;
+      }
+      p {
+        font-size: 15px;
+        line-height: 2;
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
+  .header_serv {
+    .title {
+      text-align: left;
+      h1 {
+        font-size: 45px !important;
+        line-height: normal;
+      }
+      p {
+        font-size: 15px;
+        line-height: 23px;
+      }
+    }
+    &:after {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 359px) {
@@ -2008,6 +2056,24 @@
     &:after {
       height: 450px;
       width: 342px;
+    }
+  }
+  .header_mrk {
+    &:after {
+      height: 207px;
+      width: 290px;
+    }
+  }
+  .header_clientes {
+    &:after {
+      height: 207px;
+      width: 260px;
+    }
+  }
+  .header_serv {
+    &:after {
+      height: 318px;
+      width: 260px;
     }
   }
 }
@@ -2642,6 +2708,18 @@
       width: 450px;
     }
   }
+  .header_mrk {
+    &:after {
+      height: 250px;
+      width: 350px;
+    }
+  }
+  .header_clientes {
+    &:after {
+      height: 250px;
+      width: 314px;
+    }
+  }
 }
 
 @media screen and (min-width: 1200px) and (max-width:1399px) {
@@ -2735,6 +2813,18 @@
           margin-bottom: 0rem;
         }
       }
+    }
+  }
+  .header_mrk {
+    &:after {
+      height: 325px;
+      width: 455px;
+    }
+  }
+  .header_clientes {
+    &:after {
+      height: 325px;
+      width: 408px;
     }
   }
 }

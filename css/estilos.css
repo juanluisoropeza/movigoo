@@ -2530,6 +2530,90 @@ footer {
       border-color: white;
       color: #dc3b41; }
 
+.header_mrk {
+  background-color: #ff3453; }
+  .header_mrk:after {
+    content: "";
+    background: url("../images/mktyventas.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 377px;
+    width: 528px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_mrk .title h1 {
+    font-size: 70px !important;
+    font-weight: 700 !important;
+    color: #ffffff; }
+  .header_mrk .title p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 20px; }
+    .header_mrk .title p .dark {
+      font-weight: 700; }
+
+.header_clientes {
+  background-color: #6727e5; }
+  .header_clientes:after {
+    content: "";
+    background: url("../images/experiencia-clientes.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 380px;
+    width: 477px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_clientes .title h1 {
+    font-size: 70px !important;
+    font-weight: 700 !important;
+    color: #ffffff; }
+  .header_clientes .title p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 20px; }
+    .header_clientes .title p .dark {
+      font-weight: 700; }
+
+.header_serv {
+  background-color: #0096ff; }
+  .header_serv:after {
+    content: "";
+    background: url("../images/servicio-cliente.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 437px;
+    width: 357px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
+  .header_serv .title h1 {
+    font-size: 70px !important;
+    font-weight: 700 !important;
+    color: #ffffff; }
+  .header_serv .title p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ffffff;
+    margin: 0px;
+    padding-top: 20px; }
+    .header_serv .title p .dark {
+      font-weight: 700; }
+
 @media screen and (max-width: 576px) {
   .header_internas {
     padding: 0px 34px !important; }
@@ -3544,6 +3628,36 @@ footer {
     font-size: 15px;
     line-height: 2; }
   .header_ws:after {
+    display: none; }
+  .header_mrk .title {
+    text-align: left; }
+    .header_mrk .title h1 {
+      font-size: 45px !important;
+      line-height: normal; }
+    .header_mrk .title p {
+      font-size: 15px;
+      line-height: 2; }
+  .header_mrk:after {
+    display: none; }
+  .header_clientes .title {
+    text-align: left; }
+    .header_clientes .title h1 {
+      font-size: 45px !important;
+      line-height: normal; }
+    .header_clientes .title p {
+      font-size: 15px;
+      line-height: 2; }
+  .header_clientes:after {
+    display: none; }
+  .header_serv .title {
+    text-align: left; }
+    .header_serv .title h1 {
+      font-size: 45px !important;
+      line-height: normal; }
+    .header_serv .title p {
+      font-size: 15px;
+      line-height: 23px; }
+  .header_serv:after {
     display: none; } }
 
 @media screen and (max-width: 359px) {
@@ -3773,7 +3887,16 @@ footer {
     width: 307px; }
   .header_ws:after {
     height: 450px;
-    width: 342px; } }
+    width: 342px; }
+  .header_mrk:after {
+    height: 207px;
+    width: 290px; }
+  .header_clientes:after {
+    height: 207px;
+    width: 260px; }
+  .header_serv:after {
+    height: 318px;
+    width: 260px; } }
 
 @media screen and (max-width: 991px) {
   header .menu {
@@ -4102,7 +4225,13 @@ footer {
     width: 487px; }
   .header_sa:after {
     height: 300px;
-    width: 450px; } }
+    width: 450px; }
+  .header_mrk:after {
+    height: 250px;
+    width: 350px; }
+  .header_clientes:after {
+    height: 250px;
+    width: 314px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
   #home .right_content .sidenav .item_menu {
@@ -4140,7 +4269,13 @@ footer {
     #contacto_demo .right_content h3 {
       font-size: 20px; }
     #contacto_demo .right_content .controls .text-danger {
-      margin-bottom: 0rem; } }
+      margin-bottom: 0rem; }
+  .header_mrk:after {
+    height: 325px;
+    width: 455px; }
+  .header_clientes:after {
+    height: 325px;
+    width: 408px; } }
 
 @media screen and (max-height: 767px) {
   main {
