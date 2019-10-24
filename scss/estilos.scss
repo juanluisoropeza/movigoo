@@ -1381,7 +1381,7 @@ main {
       line-height: 1.5;
       color: #000000;
       margin: 30px 0px 40px;
-      margin-right: 200px;
+      margin-right: 440px;
     }
     ul {
       margin-left: 23px;
@@ -1391,6 +1391,13 @@ main {
         line-height: 1.5;
         margin-bottom: 18px;
       }
+    }
+  }
+  .imagen {
+    margin-top: 30px;
+    img {
+      width: 100%;
+      height: 404px;
     }
   }
   .text_precios {
@@ -1431,6 +1438,55 @@ main {
           color: #FFF;
         }
       }
+    }
+  }
+}
+
+.chatbox_contenido {
+  .item {
+    p {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: initial!important;
+      margin-right: 335px;
+      margin-bottom: 40px;
+    }
+    p.txt_grande {
+      font-size: 25px;
+      line-height: 1.4;
+      margin-bottom: 65px;
+    }
+  }
+  .texto_bajo {
+      padding-bottom: 20px;
+    h3 {
+      font-size: 40px;
+      font-weight: bold;
+      line-height: 1.5;
+      text-align: center;
+      margin-top: 40px;
+    }
+    p {
+      font-size: 25px;
+      line-height: 1.4;
+      text-align: center;
+      margin: 0px;
+    }
+  }
+  .icono_sobre_img {
+    text-align: center;
+    figure {
+      margin-bottom: 30px;
+      img {
+        max-height: 100px;
+      } 
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.25;
+      margin: 0 auto;
+      width: 175px;
     }
   }
 }
