@@ -1007,6 +1007,9 @@
         right: 0;
       }
     }
+    &:after {
+      display: none;
+    }
   }
   #pureCloudHeader {
     .content_header {
@@ -1950,6 +1953,10 @@
         right: 0;
       }
     }
+    &:after {
+      height: 325px;
+      width: 470px;
+    }
   }
   #pureCloudHeader {
     .content_header {
@@ -2166,7 +2173,7 @@
       position: absolute;
       right: 0;
       top: 0;
-    } 
+    }
   }
   .like_movigoo {
     .box {
@@ -2520,6 +2527,10 @@
         }
       }
     } 
+    &:after {
+      height: 325px;
+      width: 470px;
+    }
   }
   #pureCloudHeaderRedSection {
     .img_sticky {
@@ -2801,6 +2812,10 @@
 
 @media screen and (min-width: 1200px) and (max-width:1399px) {
   #home {
+    &:after {
+      height: 375px;
+      width: 543px;
+    }
     .right_content {
       .sidenav {
         .item_menu {
@@ -2906,6 +2921,15 @@
   }
 }
 
+@media screen and (min-width: 1400px) and (max-width:1550px) {
+  #home {
+    &:after {
+      height: 449px;
+      width: 650px;
+    }
+  }
+}
+
 @media screen and (max-height: 767px) {
   main {
     min-height: calc(600px - (50px + 88px));
@@ -2936,6 +2960,10 @@
           }
         }
       }
+    }
+    &:after {
+      height: 375px;
+      width: 543px;
     }
   }
   #contacto_freshworks,

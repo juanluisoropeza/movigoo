@@ -10,13 +10,85 @@
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-  <header>
-    <div class="row w-100 h-100 align-content-center">
-      <div class="col-5 col-md-6 d-flex align-items-center logo">
-        <a href="index.html"><img src="images/logo.svg" alt="Movigoo"></a>
-      </div>
-      <div class="col-7 col-md-6 btn_header">
-        <a href="https://calendly.com/movigoo" target="_blank"class="btn btn-outline-danger">AGENDA UNA CALL</a>
+  <header class="hin_nmenu">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 menu">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+              <picture>
+                <source media='(min-width: 992px)' srcset='images/hola_internas.svg'/>
+                <source media='(max-width: 991px)' srcset='images/logo.svg'/>
+                <img src='images/hola_internas.svg'/>
+              </picture>
+            </a>
+            <div class="d-flex d-lg-none form-inline my-2 my-lg-0 btn_header">
+              <a href="https://calendly.com/movigoo" target="_blank" class="btn btn-outline-danger">AGENDA UNA CALL</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <img src="images/menu-negro.svg" alt="Menu" class="img-fluid" id="img_menu">
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    SOLUCIONES
+                  </a>
+                  <div class="dropdown-menu text-break" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="soluciones_marketing.html">
+                      <span class="tit_seccion">Marketing & Ventas</span>
+                      <span class="d-none d-lg-block subtit_seccion">Fidelización, enhacement e incentivo de compra</span>
+                    </a>
+                    <a class="dropdown-item" href="soluciones_clientes.html">
+                      <span class="tit_seccion">Experiencia de clientes</span>
+                      <span class="d-none d-lg-block subtit_seccion">Estrategias CX efectivas</span>
+                    </a>
+                    <a class="dropdown-item" href="soluciones_servicios.html">
+                      <span class="tit_seccion">Servicio al cliente</span>
+                      <span class="d-none d-lg-block subtit_seccion">Potencia la comunicación con tus clientes</span>
+                    </a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      SERVICIOS
+                    </a>
+                    <div class="dropdown-menu text-break" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="pure_cloud.html">
+                        <span class="tit_seccion">PureCloud</span>
+                        <span class="d-none d-lg-block subtit_seccion">Plataforma omnicanal en la nube</span>
+                      </a>
+                      <a class="dropdown-item" href="digital_touchpoints.html">
+                        <span class="tit_seccion">Digital Touchpoints</span>
+                        <span class="d-none d-lg-block subtit_seccion">Canales digitales: WhatsApp + Chatbots y más!</span>
+                      </a>
+                      <a class="dropdown-item" href="freshworks.html">
+                        <span class="tit_seccion">Freshworks Suite</span>
+                        <span class="d-none d-lg-block subtit_seccion">Optimización de procesos internos</span>
+                      </a>
+                      <a class="dropdown-item" href="speech_analytics.html">
+                        <span class="tit_seccion">Speech Analytics</span>
+                        <span class="d-none d-lg-block subtit_seccion">Escucha y analiza las interacciones de tus clientes</span>
+                      </a>
+                      <a class="dropdown-item" href="chatbots.html">
+                        <span class="tit_seccion">Bots</span>
+                        <span class="d-none d-lg-block subtit_seccion">Asistentes virtuales con Inteligencia Artificial</span>
+                      </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.php">CONTACTO</a>
+                </li>
+              </ul>
+              <div class="d-none d-lg-block form-inline my-2 my-lg-0 btn_header">
+                <a href="https://calendly.com/movigoo" target="_blank" class="btn btn-outline-danger">AGENDA UNA CALL</a>
+              </div>
+            </div>
+          </nav>
+        </div>
       </div>
     </div>
   </header>
@@ -31,52 +103,8 @@
             </div>
             <div class="bottom_content">
               <p>
-                Agenda una call con nosotros y descubre nuestras soluciones de contactabilidad 100% en la nube, que te permitirán darle a tu negocio un valor único.
+                y por eso somos <b><span class="txt_rojo">líderes LATAM</span></b> en omnicanalidad, experiencia de cliente, canales digitales, Inteligencia Artificial y transformación digital para tu compañía
               </p>
-            </div>
-          </div>
-          <div class="col-md-6 right_content">
-            <a id="menu_ppal" href="index.html" class="mn_hamb">
-              <img src="images/menu-negro.svg" alt="Menu" class="img-fluid" id="img_menu">
-            </a>
-            <div id="mySidenav" class="sidenav">
-              <a id="cerrar" href="javascript:void(0)" class="closebtn">&times;</a>
-              <div class="item_menu">
-                Soluciones
-                <ul>
-                  <li>
-                    <a href="soluciones_clientes.html">Experiencia de clientes</a>
-                  </li>
-                  <li>
-                    <a href="soluciones_marketing.html">Ventas y Marketing</a>
-                  </li>
-                  <li>
-                    <a href="soluciones_servicios.html">Servicio al Cliente</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="item_menu">
-                Servicios
-                <ul>
-                  <li>
-                    <a href="pure_cloud.html">PureCloud</a>
-                  </li>
-                  <li>
-                    <a href="digital_touchpoints.html">Digital Touchpoints</a>
-                  </li>
-                  <li>
-                    <a href="speech_analytics.html">Speech Analytics</a>
-                  </li>
-                  <li>
-                    <a href="freshworks.html">Freshworks Suite</a>
-                  </li>
-                  <li>
-                    <a href="chatbots.html">Bots</a>
-                  </li>
-                </ul>
-              </div>
-              <a href="nosotros.html" class="item_menu">Nosotros</a>
-              <a href="contacto.php" class="item_menu">Contacto</a>
             </div>
           </div>
         </div>

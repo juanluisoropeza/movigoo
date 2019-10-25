@@ -448,7 +448,22 @@ main {
   height: calc(100vh - (88px + 50px)); }
 
 #home {
-  padding: 88px 0px; }
+  overflow: hidden;
+  padding: 88px 0px;
+  position: relative; }
+  #home:after {
+    content: "";
+    background: url("../images/home-svg.svg") no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 497px;
+    width: 719px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%; }
   #home .left_content,
   #home .right_content {
     height: calc(100vh - (88px + 50px + 88px + 88px)); }
@@ -462,8 +477,8 @@ main {
       font-weight: 700;
       line-height: normal; }
   #home .left_content .bottom_content p {
-    font-size: 20px;
-    line-height: 1.5; }
+    font-size: 30px;
+    line-height: 1.33; }
   #home .right_content {
     overflow: hidden;
     position: relative;
@@ -3329,6 +3344,8 @@ footer {
           right: 26px; }
       #home .right_content .open {
         right: 0; }
+    #home:after {
+      display: none; }
   #pureCloudHeader .content_header .title_header {
     height: 100px;
     display: flex;
@@ -3890,6 +3907,9 @@ footer {
           right: 26px; }
       #home .right_content .open {
         right: 0; }
+    #home:after {
+      height: 325px;
+      width: 470px; }
   #pureCloudHeader .content_header .title_header {
     height: 100px;
     display: flex;
@@ -4195,6 +4215,9 @@ footer {
     #home .right_content .sidenav .item_menu.active ul li a {
       font-size: 15px;
       font-weight: 400; }
+  #home:after {
+    height: 325px;
+    width: 470px; }
   #pureCloudHeaderRedSection .img_sticky {
     top: -250px; }
   #nosotros_content .right_content .txt_big {
@@ -4328,6 +4351,9 @@ footer {
     width: 314px; } }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
+  #home:after {
+    height: 375px;
+    width: 543px; }
   #home .right_content .sidenav .item_menu {
     font-size: 54px; }
   #pureCloudHeader .content_header .title_header figure img {
@@ -4371,6 +4397,11 @@ footer {
     height: 325px;
     width: 408px; } }
 
+@media screen and (min-width: 1400px) and (max-width: 1550px) {
+  #home:after {
+    height: 449px;
+    width: 650px; } }
+
 @media screen and (max-height: 767px) {
   main {
     min-height: calc(600px - (50px + 88px)); }
@@ -4388,6 +4419,9 @@ footer {
       margin-bottom: 0px; }
       #home .right_content .sidenav .item_menu.active ul li a {
         font-size: 16px; }
+  #home:after {
+    height: 375px;
+    width: 543px; }
   #contacto_freshworks .right_content h3,
   #contacto_precios .right_content h3,
   #contacto_demo .right_content h3 {

@@ -567,7 +567,23 @@ main {
 }
 
 #home {
+  overflow: hidden;
   padding:88px 0px;
+  position: relative;
+  &:after {
+    content: "";
+    background: url('../images/home-svg.svg') no-repeat;
+    background-position: bottom right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 497px;
+    width: 719px;
+    position: absolute;
+    bottom: 34px;
+    right: 5%;
+  }
   .left_content,
   .right_content {
     height: calc(100vh - (88px + 50px + 88px + 88px));
@@ -587,8 +603,8 @@ main {
     }
     .bottom_content {
       p {
-        font-size: 20px;
-        line-height: 1.5;
+        font-size: 30px;
+        line-height: 1.33;
       }
     }
   }
