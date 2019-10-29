@@ -1574,6 +1574,9 @@ footer {
   width: 100%;
   .info {
     text-align: left;
+    img {
+      margin: 0px 8px 0px 12px;
+    }
   }
   .rs {
     text-align: right;
@@ -1649,10 +1652,20 @@ footer {
       line-height: 1.67;
       color: #ffffff;
       margin-right: 90px;
+      margin-bottom: 0px;
     }
   }
   .text_movil {
     display: none;
+  }
+  .list-group-horizontal {
+    margin: 0px;
+    .list-group-item {
+      background-color: transparent;
+      border: 0;
+      margin: 0px;
+      padding: .5rem;
+    }
   }
 }
 

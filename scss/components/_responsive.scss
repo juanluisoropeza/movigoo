@@ -1209,6 +1209,7 @@
       }
       p {
         font-size: 15px;
+        width: auto;
       }
     }
   }
@@ -2183,6 +2184,7 @@
   }
   .footer_internas {
     height: 100%;
+    padding-bottom: 15px;
     .box_options {
       h3 {
         font-size: 13px;
@@ -2758,6 +2760,9 @@
       text-align: left;
       font-size: 14px;
     }
+  }
+  .footer_internas {
+    height: 300px;
   }
   .nosotros {
     &:after {
