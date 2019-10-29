@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>peru</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,0 C6.7157,0 0,6.71575 0,15 L0,15 C0,23.2843 6.7157,30 15,30 L15,30 C23.28425,30 30,23.2843 30,15 L30,15 C30,6.71575 23.28425,0 15,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inicio-menu" transform="translate(-256.000000, -770.000000)">
+            <g id="peru" transform="translate(256.000000, 770.000000)">
+                <g id="Group-4">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#D91023" mask="url(#mask-2)" points="-7.5 30 37.5 30 37.5 0 -7.5 0"></polygon>
+                    <polygon id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)" points="7.5 30 22.5 30 22.5 0 7.5 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

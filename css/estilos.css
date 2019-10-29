@@ -1265,6 +1265,9 @@ footer {
   width: 100%; }
   footer .info {
     text-align: left; }
+    footer .info img {
+      margin: 0px 8px 0px 12px;
+      max-height: 30px; }
   footer .rs {
     text-align: right; }
     footer .rs span.txt {
@@ -1319,9 +1322,19 @@ footer {
     font-weight: 700;
     line-height: 1.67;
     color: #ffffff;
-    margin-right: 90px; }
+    margin-right: 90px;
+    margin-bottom: 0px; }
   .footer_internas .text_movil {
     display: none; }
+  .footer_internas .list-group-horizontal {
+    margin: 0px; }
+    .footer_internas .list-group-horizontal .list-group-item {
+      background-color: transparent;
+      border: 0;
+      margin: 0px;
+      padding: .5rem; }
+      .footer_internas .list-group-horizontal .list-group-item img {
+        max-height: 30px; }
 
 #nosotros {
   background: url("../images/movigoo-banner-lg.jpg") repeat fixed;
@@ -3461,7 +3474,8 @@ footer {
       .chatbox_contenido .icono_sobre_img figure img {
         max-height: 100px; }
     .chatbox_contenido .icono_sobre_img p {
-      font-size: 15px; }
+      font-size: 15px;
+      width: auto; }
   #freshworks .top_header figure img {
     max-height: 32px; }
   #freshworks .top_header h1 {
@@ -4023,7 +4037,8 @@ footer {
     border: none;
     margin-bottom: 35px; }
   .footer_internas {
-    height: 100%; }
+    height: 100%;
+    padding-bottom: 15px; }
     .footer_internas .box_options h3 {
       font-size: 13px; }
     .footer_internas .box_options ul li a {
@@ -4324,6 +4339,8 @@ footer {
   footer .info {
     text-align: left;
     font-size: 14px; }
+  .footer_internas {
+    height: 300px; }
   .nosotros:after {
     height: 180px;
     width: 683px; }
@@ -4404,7 +4421,7 @@ footer {
 
 @media screen and (max-height: 767px) {
   main {
-    min-height: calc(600px - (50px + 88px)); }
+    min-height: 550px; }
   main.mcont {
     min-height: 600px; }
   #home .left_content,
@@ -4420,8 +4437,8 @@ footer {
       #home .right_content .sidenav .item_menu.active ul li a {
         font-size: 16px; }
   #home:after {
-    height: 375px;
-    width: 543px; }
+    height: 318px;
+    width: 460px; }
   #contacto_freshworks .right_content h3,
   #contacto_precios .right_content h3,
   #contacto_demo .right_content h3 {

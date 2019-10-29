@@ -26,7 +26,7 @@
         <div class="row">
           <div class="col-lg-8 left_content">
             <h1>
-              ¡Encuéntranos en <span class="txt_rojo">Chile</span>, Perú, Colombia y México!
+              ¡Encuéntranos en Chile, Perú, Colombia y México!
             </h1>
             <p>
               ó escríbenos a: <a href="mailto:hola@movigoo.com" class="txt_rojo"><b>hola@movigoo.com</b></a>

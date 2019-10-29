@@ -1209,6 +1209,7 @@
       }
       p {
         font-size: 15px;
+        width: auto;
       }
     }
   }
@@ -2183,6 +2184,7 @@
   }
   .footer_internas {
     height: 100%;
+    padding-bottom: 15px;
     .box_options {
       h3 {
         font-size: 13px;
@@ -2759,6 +2761,9 @@
       font-size: 14px;
     }
   }
+  .footer_internas {
+    height: 300px;
+  }
   .nosotros {
     &:after {
       height: 180px;
@@ -2932,7 +2937,7 @@
 
 @media screen and (max-height: 767px) {
   main {
-    min-height: calc(600px - (50px + 88px));
+    min-height: 550px;
   }
   main.mcont {
     min-height: 600px;
@@ -2962,8 +2967,8 @@
       }
     }
     &:after {
-      height: 375px;
-      width: 543px;
+      height: 318px;
+      width: 460px;
     }
   }
   #contacto_freshworks,
