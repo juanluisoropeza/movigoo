@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>colombia</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,0 C6.72385,0 0.01465,6.70915 0.01465,14.98535 L0.01465,14.98535 C0.01465,23.2615 6.72385,29.9707 15,29.9707 L15,29.9707 C23.27615,29.9707 29.98535,23.2615 29.98535,14.98535 L29.98535,14.98535 C29.98535,6.70915 23.27615,0 15,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inicio-menu" transform="translate(-463.000000, -770.000000)">
+            <g id="colombia" transform="translate(463.000000, 770.000000)">
+                <g id="Group-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#FCD116" mask="url(#mask-2)" points="-7.5 30 37.5 30 37.5 0 -7.5 0"></polygon>
+                    <polygon id="Fill-3" fill="#003893" mask="url(#mask-2)" points="-7.5 30 37.5 30 37.5 15 -7.5 15"></polygon>
+                    <polygon id="Fill-4" fill="#CE1126" mask="url(#mask-2)" points="-7.5 30 37.5 30 37.5 22.5 -7.5 22.5"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>chile</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15,0 C6.71573146,0 0,6.71573146 0,15 L0,15 C0,23.2842685 6.71573146,30 15,30 L15,30 C23.2842385,30 30,23.2842685 30,15 L30,15 C30,6.71573146 23.2842385,0 15,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Inicio-menu" transform="translate(-158.000000, -770.000000)">
+            <g id="chile" transform="translate(158.000000, 770.000000)">
+                <g id="Group-5">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <polygon id="Fill-1" fill="#0039A6" mask="url(#mask-2)" points="0 30.0601202 45.0901804 30.0601202 45.0901804 0 0 0"></polygon>
+                    <path d="M7.51503006,3.75751503 L6.66958918,6.35960922 L3.89840681,6.35960922 L6.13977956,7.97906814 L5.29809619,10.5661323 L7.49624248,8.95977956 L9.72069138,10.5623747 L8.87149299,7.9509018 L11.0546092,6.35395792 L8.36047094,6.35395792 L7.51503006,3.75751503 Z M15.0300601,30.0601202 L45.0901804,30.0601202 L45.0901804,0 L15.0300601,0 L15.0300601,30.0601202 Z" id="Fill-3" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                    <polyline id="Fill-4" fill="#D52B1E" mask="url(#mask-2)" points="45.0901804 30.0601202 0 30.0601202 0 15.0300601 45.0901804 15.0300601"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
