@@ -3,20 +3,18 @@
 
 $formulario = $_POST['formulario'];
 
-if($formulario != "formContactoFreshworks") {
-
-if(empty($_POST['formulario']) || 
-   empty($_POST['nombre'])  	 ||
-   empty($_POST['email']) 	    ||
-   empty($_POST['cargo']) 		 ||
-   empty($_POST['empresa'])    ||
-   empty($_POST['telefono']) 	 ||
-   empty($_POST['mensaje'])	 ||
-   !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
-      echo "Error al procesar su consulta..!";
-      return false;
-}
-
+if($formulario != "formContactoFreshworks" && $formulario != "formContactoHome") {
+   if(empty($_POST['formulario']) || 
+      empty($_POST['nombre'])  	 ||
+      empty($_POST['email']) 	    ||
+      empty($_POST['cargo']) 		 ||
+      empty($_POST['empresa'])    ||
+      empty($_POST['telefono']) 	 ||
+      empty($_POST['mensaje'])	 ||
+      !filter_var($_POST['email'],FILTER_VALIDATE_EMAIL)){
+         echo "Error al procesar su consulta..!";
+         return false;
+   }
 }
 
 
@@ -75,6 +73,13 @@ switch ($formulario) {
       $servicio = $_POST['servicio'];
       $asunto = "Lead Precios ".$servicio;
       $texto_completo = "Has recibido un correo electrónico de tu página web.\n\n"."Detalles:\n\nNombre: $nombre\n\nEmail: $email_address\n\nNúmero de Contacto: $numero\n\nCargo: $cargo\n\nEmpresa: $empresa\n\nServicio: $servicio\n\nMensaje:\n$mensaje\n\n";
+   break;
+   case 'formContactoHome':
+      $nombre = $_POST['nombre'];
+      $email_address = $_POST['email'];
+      $mensaje = $_POST['mensaje'];
+      $asunto = "Nuevo contacto web";
+      $texto_completo = "Has recibido un correo electrónico de tu página web.\n\n"."Detalles:\n\nNombre: $nombre\n\nEmail: $email_address\n\nMensaje:\n$mensaje\n\n";
    break;
 }
 
