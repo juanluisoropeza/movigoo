@@ -41,7 +41,7 @@
                   <p>
                     Antonio Varas Nº 303, oficina 606<br>
                     Providencia, Santiago - Chile.<br>
-                    <span class="txt_rojo"><b>Teléfono: (+56) 2 29148485</b></span>
+                    <span class="txt_rojo"><b>WhatsApp: (+56) 9 5689941</b></span>
                   </p>
                 </div>
               </div>
@@ -54,7 +54,7 @@
                   <p>
                     Pasaje Mártir Olaya N° 129, oficina 1704 <br>
                     Miraflores, Lima - Perú. <br>
-                    <span class="txt_rojo"><b>Teléfono: (+51) 1 6405032 anexo 2</b></span>
+                    <span class="txt_rojo"><b>WhatsApp: (+51) 988640777</b></span>
                   </p>
                 </div>
               </div>
@@ -68,10 +68,14 @@
                 </div>
               </div>
               <div class="col-6 col-md-6 col-lg-6 info_ubic">
-                <div class="icon"></div>
+                <div class="icon">
+                  <img src="images/icon_ubicacion.svg" alt="ubicacion" class="img-fluid">
+                </div>
                 <div class="info">
                   <h4>MÉXICO:</h4>
-                  <p>PRÓXIMAMENTE…</p>
+                  <p>
+                  Bahía de guantanamo #79, Col. Verónica Anzurez, Miguel -Hidalgo, CDMX CP 11300
+                  </p>
                 </div>
               </div>
             </div>

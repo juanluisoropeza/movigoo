@@ -38,6 +38,14 @@
               <div class="row control-group">
                 <div class="col-md-6 col-lg-4 info_check">
                   <div class="form-check form-check-inline">
+                    <label class="ctn_check">Five9
+                      <input type="radio" checked="checked" name="inlineRadioOptions" id="inlineRadio0" value="PureCloud" required data-validation-required-message="Por favor, debe seleccionar <b>el servicio que te interesa</b>.">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 info_check">
+                  <div class="form-check form-check-inline">
                     <label class="ctn_check">PureCloud
                       <input type="radio" checked="checked" name="inlineRadioOptions" id="inlineRadio1" value="PureCloud" required data-validation-required-message="Por favor, debe seleccionar <b>el servicio que te interesa</b>.">
                       <span class="checkmark"></span>
@@ -46,16 +54,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4 info_check">
                   <div class="form-check form-check-inline">
-                    <label class="ctn_check">Freshworks
-                      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Freshworks">
-                      <span class="checkmark"></span>
-                    </label>
-                  </div>
-                </div>
-                <div class="col-md-6 col-lg-4 info_check">
-                  <div class="form-check form-check-inline">
-                    <label class="ctn_check">Chatbot
-                      <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Chatbot">
+                    <label class="ctn_check">AddOns
+                      <input type="radio" checked="checked" name="inlineRadioOptions" id="inlineRadio4" value="PureCloud" required data-validation-required-message="Por favor, debe seleccionar <b>el servicio que te interesa</b>.">
                       <span class="checkmark"></span>
                     </label>
                   </div>
@@ -72,6 +72,22 @@
                   <div class="form-check form-check-inline">
                     <label class="ctn_check">Speech Analytics
                       <input type="radio" name="inlineRadioOptions" id="inlineRadio5" value="Speech Analytics">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 info_check">
+                  <div class="form-check form-check-inline">
+                    <label class="ctn_check">Freshworks
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="Freshworks">
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                </div>
+                <div class="col-md-6 col-lg-4 info_check">
+                  <div class="form-check form-check-inline">
+                    <label class="ctn_check">Chatbot
+                      <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="Chatbot">
                       <span class="checkmark"></span>
                     </label>
                   </div>

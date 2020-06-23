@@ -81,6 +81,17 @@ $(function() {
                         servicio: servicio
                     }
                 break;
+                case "formContactoHome":
+                    var nombre = $("input#txt_nombre").val();
+                    var email = $("input#txt_correo_empresa").val();
+                    var mensaje = $("textarea#txt_mensaje").val();
+                    var paraEnviar = {
+                        formulario: formulario,
+                        nombre: nombre,
+                        email: email,
+                        mensaje: mensaje
+                    }
+                break;
             }            
             var firstName = nombre; // For Success/Failure Message
             // Check for white space in nombre for Success/Fail message
